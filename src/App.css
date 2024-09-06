@@ -1,0 +1,105 @@
+.battle-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.pokemon-details {
+  display: block; /* Stack Pokémon 2 below Pokémon 1 */
+  margin-bottom: 20px;
+}
+
+.pokemon-block {
+  margin-bottom: 30px; /* Adds space between the two Pokémon blocks */
+}
+
+.pokemon-row {
+  display: flex;
+  align-items: center; /* Aligns image and message box side by side */
+  justify-content: center; /* Centers the content */
+}
+
+.pokemon-image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.btn1{
+  background-color: none;
+  border: #fffbfb;
+  color: black;
+  height: 70px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.message-body {
+  background: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 12px;
+  margin-left: 20px;
+  text-align: left;
+  width: 550px;
+}
+
+.battle-log {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 50px;
+}
+
+.upt{
+  background-color: #c2f6c7;
+  border: 2px black solid;;
+  height: 20px;
+  width: 120px;
+  padding-left: 58px;
+  padding: 6px;
+  border-radius: 50px;
+}
+
+.upt2{
+  background-color: #cee3fe;
+  border: 2px black solid;;
+  height: 20px;
+  width: 120px;
+  padding-left: 58px;
+  padding: 6px;
+  border-radius: 50px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.button-container{
+  margin-left: 20px;
+}
+
+
+.message-body2 {
+  background: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 12px;
+  text-align: left;
+  width: 550px;
+  height: 200px;
+  margin-left: 400px;
+  
+
+}
+
+.Flex{
+  display: flex;
+  
+  
+}
